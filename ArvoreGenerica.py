@@ -21,7 +21,7 @@ class No:
         prefixo += "    " if eh_ultimo else "│   "
         # Chama recursivamente para cada filho do nó, marcando o último filho
         for i, filho in enumerate(self.filhos):
-            filho.imprimir_arvore(prefixo, i == len(self.filhos) - 1)
+            filho.imprimir_arvore(prefixo, i == len(self.filhos) - 1) 
 
 # Função recursiva para contar o número de nós na árvore
 def contar_nos_recursivo(raiz):
